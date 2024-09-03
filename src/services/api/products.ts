@@ -3,7 +3,7 @@ import axiosInstance from "./config";
 
 export const getProducts = async () => {
   try {
-    const response = await axiosInstance.get("/products");
+    const response = await axiosInstance.get("products");
     return response.data;
   } catch (error) {
     console.log(error);
@@ -21,7 +21,7 @@ export const getProduct = async (id: string) => {
 
 export const createProduct = async (product: Product) => {
   try {
-    const response = await axiosInstance.post("/products", product);
+    const response = await axiosInstance.post("products", product);
     return response.data;
   } catch (error) {
     console.error(error);
