@@ -10,7 +10,7 @@ export const Products = () => {
 
   return (
     <>
-      <div className="flex justify-between">
+      <div className="flex flex-col gap-4 sm:flex-row sm:justify-between">
         <h2 className="text-4xl font-black text-slate-500">Products</h2>
         <Link
           to="products/new"
