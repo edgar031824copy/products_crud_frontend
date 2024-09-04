@@ -34,4 +34,4 @@ npm start
 This will start the React application on http://localhost:3000.
 
 ## deployed version
-https://products-crud-frontend-gjlb6dkzb.vercel.app/
+https://products-crud-frontend-ke9jkchq0.vercel.app
